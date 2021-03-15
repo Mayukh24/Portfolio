@@ -9,7 +9,6 @@ body {
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
 	font-size: 62.5%;
-	font-size: 10px;
     background-color: black;
     color: white;
 }
@@ -18,9 +17,9 @@ body {
 
 .nav {
 	width: 100%;
-	height: 65px;
+	height: 6.5rem;
 	position: fixed;
-	line-height: 65px;
+	line-height: 6.5rem;
 	text-align: center;    
 }
 
@@ -33,14 +32,14 @@ body {
 
 
 .nav div.main_list {
-	height: 65px;
+	height: 6.5rem;
 	float: right;   
 		
 }
 
 .nav div.main_list ul {
 	width: 100%;
-	height: 65px;
+	height: 6.5rem;
 	display: flex;
 	list-style: none;
 	margin: 0;
@@ -49,7 +48,7 @@ body {
 
 .nav div.main_list ul li {
 	width: auto;
-	height: 65px;
+	height: 6.5rem;
 	padding: 0;
 	padding-right: 3rem;
 }
@@ -57,8 +56,8 @@ body {
 .nav div.main_list ul li a {
 	text-decoration: none;
 	color: #fff;
-	line-height: 65px; 
-    font-size: 14px;
+	line-height: 6.5rem; 
+    font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
 }
 
@@ -82,8 +81,8 @@ body {
 }
 
 .nav {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -360,50 +359,50 @@ body {
     color: white;
 }
 .intro-home{    
-    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Poppins', sans-serif;    
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 .name{    
     font-family: 'Bebas Neue', cursive;
-    font-size: 160px;
-    margin-left: 40px;
+    font-size: 16rem;
+    margin-left: 4rem;
 }
 .wrapper{
-    margin-left: 40px;
+    margin-left: 4rem;
     display: flex;
   }
   .wrapper .static-txt{
     color: #fff;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    margin-right: 0px;
-    padding-right: 0px;
+    margin-right: 0rem;
+    padding-right: 0rem;
   }
   .wrapper .dynamic-txts{
-    margin-left: 0px;
-    height: 90px;
-    line-height: 90px;
+    margin-left: 0rem;
+    height: 9rem;
+    line-height: 9rem;
     overflow: hidden;
   }
   .dynamic-txts li{
     list-style: none;
     color: #e4a154;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 6rem;
+    font-weight: 5rem;
     position: relative;
     top: 0;
     animation: slide 12s steps(4) infinite;
   }
   @keyframes slide {
     100%{
-      top: -360px;
+      top: -36rem;
     }
   }
   .dynamic-txts li span{
     position: relative;
-    margin: 2px 0;
-    line-height: 90px;
+    margin: 0.2rem 0;
+    line-height: 9rem;
   }
   .dynamic-txts li span::after{
     content: "";
@@ -435,20 +434,20 @@ body {
 
 .text-about{
     font-family: 'Bebas Neue', cursive;
-    font-size: 64px;
+    font-size: 6.4rem;
 }
 
 .btn-contact{
-    border: 2px solid black;
+    border: 0.2rem solid black;
     background-color: black;
     color: black;
-    padding: 14px 28px;
-    font-size: 16px;
+    padding: 1.4rem 2.8rem;
+    font-size: 1.6rem;
     cursor: pointer;    
     border-color: #e4a154;
     color: #e4a154;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 1.4rem;
+    margin-top: 2rem;
     font-family: 'Roboto', sans-serif;
 }
 .btn-contact:hover {
@@ -461,68 +460,73 @@ body {
 
 .text-ed{
     font-family: 'Bebas Neue', cursive;
-    font-size: 64px;
+    font-size: 6.4rem;
     text-align: center;
-    line-height: 74px;
-    margin-top: 100px;
+    line-height: 7.4rem;
+    margin-top: 12rem;
 }
 
 .study-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 80px;    
-    margin-left: 130px;
+    margin: 10rem;    
+    margin-left: 13rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 6rem;
 }
   
 .study-wrapper h4{
     font-family: 'Bebas Neue', cursive;
-    font-size: 28px;
+    font-size: 2.8rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .imgb{
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .imgc{
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .t2{
-    margin-top: 17.5px;
+    margin-top: 1.75rem;
 }
 .t3{
-    margin-top: 28px;
+    margin-top: 3rem;
 }
 .study-ed p{
-    font-size: 16px;
+    font-size: 1.6rem;
     color:rgba(255, 255, 255, 0.514);
 }
 .date{
-    font-size: 11px;
+    font-size: 1.1rem;
     color:rgba(255, 255, 255, 0.514);
 }
 .download-cv{
     text-align: center;
-    margin: 80px;
-    padding-top: 0px;
+    margin: 8rem;
+    padding-top: 0rem;
+}
+.github{
+    text-align: center;
+    margin: 8rem;
+    padding-top: 0rem;
 }
 .btn-download{
     text-align: center;
-    border: 2px solid black;
+    border: 0.rem solid black;
     background-color: black;
     color: black;
-    padding: 14px 28px;
-    font-size: 16px;
+    padding: 1.6rem 3rem;
+    font-size: 1.6rem;
     cursor: pointer;    
     border-color: #e4a154;
     color: #e4a154;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 1.4rem;
+    margin-top: 2rem;
     font-family: 'Roboto', sans-serif;
 }
 .btn-download:hover {
@@ -534,47 +538,47 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 80px;    
+    margin: 8rem;    
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
   
 .skill-wrapper h4{
     font-family: 'Bebas Neue', cursive;
-    font-size: 28px;
+    font-size: 3rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 /*Project*/
 
 .project-wrapper{
-    margin-top: 100px;
+    margin-top: 12rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .type-project{
-    font-size: 11px;
+    font-size: 1.1rem;
     color:rgba(255, 255, 255, 0.514);
 }
 
 .heading-project{
     font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
+    font-size: 6rem;
     line-height: 54px;
 }
 
 .description-project{
-    font-size: 16px;
+    font-size: 1.6rem;
     color:rgba(255, 255, 255, 0.514);
 }
 
 .image-project{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /*Contact*/
@@ -620,10 +624,167 @@ body {
 
 .footer{
     background-color: rgb(17, 17, 17);
-    padding: 50px;
+    padding: 2rem;
 }
 .foot{
         font-family: 'Roboto';
-        font-size: 14px;
+        font-size: 2rem;
         text-align: center;
+}
+
+
+@media(max-width:998rem){
+	html{
+		font-size:55%
+	}
+}
+
+
+@media(max-width:768px){
+	html{
+		font-size:45%
+	}
+	.about{		
+		margin-left: 5rem;
+	}
+	.education{		
+		margin-left: 4rem;
+	}
+	.skills{
+		margin-left: 5rem;
+	}
+	.download-cv{
+		margin-left: 12rem;
+	}
+	.contact{
+		margin-left: 5rem;
+	}
+	.footer{
+		margin-left: 5rem;
+	}
+	.home{
+		flex-direction: column;
+	}
+	.image-home{
+		width: 45%
+	}
+	.about{
+		margin-top: 20rem;
+	}
+	.logo img{
+		width: 60px;
+	}
+	
+	/* Home Part */
+
+	.text-home{
+		color: white;
+		margin-top: 30px;
+	}
+	.intro-home{    
+		font-size: 2rem;
+		font-family: 'Poppins', sans-serif;    
+		margin-left: 2rem;
+	}
+	.name{    
+		font-family: 'Bebas Neue', cursive;
+		font-size: 8rem;
+		margin-left: 2rem;
+		text-align: center;
+	}
+	.wrapper{
+		margin-left: 1rem;
+		display: flex;
+		justify-content: center;
+	}
+	.wrapper .static-txt{
+		color: #fff;
+		font-size: 3rem;
+		font-weight: 400;
+		margin-right: 0rem;
+		padding-right: 0rem;
+	}
+	.wrapper .dynamic-txts{
+		margin-left: 0rem;
+		height: 4.5rem;
+		line-height: 4.5rem;
+		overflow: hidden;
+	}
+	.dynamic-txts li{
+		list-style: none;
+		color: #e4a154;
+		font-size: 3rem;
+		font-weight: 2.5rem;
+		position: relative;
+		top: 0;
+		animation: slide 12s steps(4) infinite;
+	}
+	@keyframes slide {
+		100%{
+		top: -18rem;
+		}
+	}
+	.dynamic-txts li span{
+		position: relative;
+		margin: 0.1rem 0;
+		line-height: 4.5rem;
+	}
+	.dynamic-txts li span::after{
+		content: "";
+		position: absolute;
+		left: 0;
+		height: 110%;
+		width: 100%;
+		background: black;
+		border-left: 2px solid #e4a154;
+		animation: typing 3s steps(12) infinite;
+	}
+	@keyframes typing {
+		40%, 60%{
+		left: calc(100% + 30px);
+		}
+		100%{
+		left: 0;
+		}
+	}
+	.imga{
+		width: 80px;
+	}
+	.imgb{
+		width: 78px;
+	}	
+	.imgc{
+		width:48px;
+	}
+	.study-ed{
+		margin:20px;
+	}	
+
+
+
+	/*Skills*/
+	.skills img{
+		width: 35px;
+	}
+	.skill-wrapper{
+		margin-left: 65px;
+		justify-content: space-evenly;
+	}
+
+	/*Projects*/
+	.project-wrapper{
+		flex-direction: column;
+	}
+	.project-wrapper img{
+		width: 350px;
+		padding-right: 80px;
+		
+	}
+	.text-project{
+		margin-left: 2.5rem;
+		text-align: center;
+	}
+	.github{
+		margin-left: 11rem;
+	}
 }
