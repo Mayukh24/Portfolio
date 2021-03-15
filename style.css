@@ -645,19 +645,19 @@ body {
 		font-size:45%
 	}
 	.about{		
-		margin-left: 5rem;
+		margin-left: 7rem;
 	}
 	.education{		
-		margin-left: 4rem;
+		margin-left: 6rem;
 	}
 	.skills{
-		margin-left: 5rem;
+		margin-left: 7rem;
 	}
 	.download-cv{
-		margin-left: 15rem;
+		margin-left: 17rem;
 	}
 	.contact{
-		margin-left: 5rem;
+		margin-left: 7rem;
 	}
 	.footer{
 		margin-left: 5rem;
@@ -785,6 +785,6 @@ body {
 		text-align: center;
 	}
 	.github{
-		margin-left: 11rem;
+		margin-left: 13rem;
 	}
 }
