@@ -656,8 +656,8 @@ body {
 	.download-cv{
 		margin-left: 17rem;
 	}
-	.contact{
-		margin-left: 7rem;
+	.contact .text-ed{
+		margin-left: 6.5rem;
 	}
 	.footer{
 		margin-left: 5rem;
@@ -785,6 +785,12 @@ body {
 		text-align: center;
 	}
 	.github{
-		margin-left: 13rem;
+		margin-left: 13.5rem;
+	}
+	.projects .text-ed{
+		margin-left: 6.5rem;
+	}
+	.skills .text-ed{
+		margin-left: 6.5rem;
 	}
 }
