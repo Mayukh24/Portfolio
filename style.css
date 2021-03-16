@@ -654,7 +654,6 @@ body {
 		margin-left: 10rem;
 	}
 	.download-cv{
-		margin-left: 17rem;
 	}
 	.contact .text-ed{
 		margin-left: 6.5rem;
@@ -785,7 +784,7 @@ body {
 		text-align: center;
 	}
 	.github{
-		margin-left: 13.5rem;
+		margin-left: 13rem;
 	}
 	.projects .text-ed{
 		margin-left: 6.5rem;
@@ -798,19 +797,20 @@ body {
 	.social-media a{
 		display: flex;
 		background-color: rgb(10, 10, 10);
-		width: 37.5px;
-		height: 37.5px;
-		margin: 0 7.5px;
-		border-radius: 50px;
+		width: 50px;
+		height: 50px;
+		margin: 0 10px;
+		border-radius: 66.67px;
 		align-items: center;
 		justify-content: center;
 		text-decoration: none;
-		box-shadow: -0.5px -0.5px 0.5px rgba(255, 255, 255, 0.137),
-			2px 2px 3px rgba(0, 0, 0, 0.8)
+		box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.137),
+			4px 4px 6px rgba(0, 0, 0, 0.8);
+		margin-left: 30px;
 	}
 	
 	.social-media a i{
-		font-size: 17.5px;
+		font-size: 23px;
 		color: #777;
 		transition: transform 0.3s;
 	}
