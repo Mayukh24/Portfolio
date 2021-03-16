@@ -791,6 +791,27 @@ body {
 		margin-left: 6.5rem;
 	}
 	.skills .text-ed{
-		margin-left: 6.5rem;
+		margin-left: -3.5rem;
+	}
+
+	/*Contact*/
+	.social-media a{
+		display: flex;
+		background-color: rgb(10, 10, 10);
+		width: 37.5px;
+		height: 37.5px;
+		margin: 0 7.5px;
+		border-radius: 50px;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		box-shadow: -0.5px -0.5px 0.5px rgba(255, 255, 255, 0.137),
+			2px 2px 3px rgba(0, 0, 0, 0.8)
+	}
+	
+	.social-media a i{
+		font-size: 17.5px;
+		color: #777;
+		transition: transform 0.3s;
 	}
 }
